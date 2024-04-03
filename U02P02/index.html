@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeras Tablas</title>
+</head>
+
+<style>
+    table,
+    td,
+    th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table {
+        width: 100%;
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <th>Cuerpo Celestial</th>
+            <th>Distancia desde la Tierra (en años luz)</th>
+            <th>Diámetro (en kilómetros)</th>
+        </tr>
+        <tr>
+            <td>Tierra</td>
+            <td>-</td>
+            <td>12,742 km</td>
+        </tr>
+        <tr>
+            <td>Luna</td>
+            <td>0.000384</td>
+            <td>3,474.8 km</td>
+        </tr>
+        <tr>
+            <td>Sol</td>
+            <td>1.5813 x 10^-5</td>
+            <td>1,391,000 km</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <table>
+        <tr>
+            <th>Cuerpo Celestial</th>
+            <th colspan="2">Datos</th>
+            <th rowspan="2">Gravedad Superficial (en m/s²)</th>
+            <th rowspan="2">Temperatura Superficial (en K)</th>
+        </tr>
+        <tr>
+            <th>-</th>
+            <th>Distancia desde la Tierra (en años luz)</th>
+            <th>Diámetro (en kilómetros)</th>
+        </tr>
+        <tr>
+            <td>Tierra</td>
+            <td>-</td>
+            <td>12,742 km</td>
+            <td>9.8</td>
+            <td>288 K</td>
+        </tr>
+        <tr>
+            <td>Luna</td>
+            <td>0.000384</td>
+            <td>3,474.8 km</td>
+            <td>1.6</td>
+            <td>253 K</td>
+        </tr>
+        <tr>
+            <td>Sol</td>
+            <td>1.5813 x 10^-5</td>
+            <td>1,391,000 km</td>
+            <td>274</td>
+            <td>5778 K</td>
+        </tr>
+    </table>
+</body>
+
+</html>
